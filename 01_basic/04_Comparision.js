@@ -54,3 +54,7 @@ const myFunction = function () {
        Object  =>  object
 
 */
+
+
+// ++++++++++++++++++++++++++++++++
+// stack (Primitive) , Heap(Non-primitive)
