@@ -13,3 +13,6 @@ var valueInNumber = Number(score)
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
+/* 
+*************************** OPERATIONS ************************** 
+*/
