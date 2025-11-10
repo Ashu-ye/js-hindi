@@ -6,3 +6,4 @@ var null1 = null
 
 console.table([name2, number, bollen, null1])
 
+console.log("tis is a datatypes")
