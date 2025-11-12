@@ -58,3 +58,24 @@ const myFunction = function () {
 
 // ++++++++++++++++++++++++++++++++
 // stack (Primitive) , Heap(Non-primitive)
+let myName = "AshrayYenpreddiwar"
+let anothernam = myName
+
+anothernam = "Monali"
+console.log(anothernam);
+console.log(myName);
+
+let userOne = {
+    email: "lala@gmail.com",
+    upi: "user@bkikl"
+}
+let userTwo = userOne
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+userTwo.email = "bala@gmail.ccommm"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
