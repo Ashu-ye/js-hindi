@@ -55,3 +55,59 @@ if(true){
 }
 
 console.log("Outer h :- ", h);
+
+
+// ================ NESTED SCOPOE===========
+function one(){
+    const username = "Ashray";
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+        
+    }
+    // console.log(website); // try to uncomment it to understand it 
+    two()
+}
+
+one()
+
+
+
+// ======================= Something intresting ================
+
+// Expression 1 
+function addone(num) {
+    return num+1
+}
+
+addone(5)
+
+
+//   now try to uncomment below code and run 
+
+/*
+addone(5)
+function addone(num) {
+    return num+1
+}
+*/
+
+// Expression 2
+
+
+const addtwo = function(num) {
+    return num+2
+}
+
+addtwo(5)
+
+// Now try to run below code it show error 
+
+/*
+addtwo(5)
+const addtwo = function(num) { // this is also you can declare function 
+    return num+2
+}
+
+*/
